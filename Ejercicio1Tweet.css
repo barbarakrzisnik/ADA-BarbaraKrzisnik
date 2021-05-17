@@ -1,0 +1,65 @@
+body, html {
+    background-color: rgb(10, 130, 243);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100%;
+}
+
+.centrarcard {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 600px;
+    background-color: white;
+    border-radius: 0px;
+    padding: 20px;
+}
+
+.cardheader {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textoheader {
+    margin-top: 30px;
+}
+
+.contenidoheader {
+    margin: 0px;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+}
+
+.cardmain {
+    margin-top: 20px;
+}
+
+.tweet {
+    font-size: 20px;
+}
+
+.cardfooter {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
