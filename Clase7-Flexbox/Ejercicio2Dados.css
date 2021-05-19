@@ -1,0 +1,128 @@
+body, html {
+    background-color: rgb(170, 170, 170);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dadosposicion {
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.dadospropiedades {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+
+}
+
+.dot {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.dado1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dado2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dado2fila2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dado3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dado3fila1 {
+    display: flex;
+    align-self: flex-end;
+}
+
+.dado3fila2 {
+    display: flex;
+    align-self: center;
+}
+
+.dado4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fila1dado4 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.fila2dado4 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.dado5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fila1dado5 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fila2dado5 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.fila3dado5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.dado6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fila1dado6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fila2dado6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
