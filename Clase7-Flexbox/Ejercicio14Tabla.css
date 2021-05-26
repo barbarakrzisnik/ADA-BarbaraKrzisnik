@@ -8,24 +8,201 @@ body, html {
 }
 main {
     height: 100%;
+    padding: 30px;
+    padding-top: 0px;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
 h2 {
     margin: 0px;
 }
 
 p {
     margin: 0px;
+    font-size: 12px;
 }
 
-.cuadrado {
+.cuadradonaranja {
     height: 80px;
     width: 80px;
-    background-color: cadetblue;
+    background-color: #f58020;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     color: white;
     text-align: center;
+    margin: 5px;
+}
+
+.cuadradoazul {
+    height: 80px;
+    width: 80px;
+    background-color: #0f2b4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradoamarillo {
+    height: 80px;
+    width: 80px;
+    background-color: #fcb916;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradoceleste {
+    height: 80px;
+    width: 80px;
+    background-color: #0f88ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradovioleta {
+    height: 80px;
+    width: 80px;
+    background-color: #772777;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradorosa {
+    height: 80px;
+    width: 80px;
+    background-color: #eb1e45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradoverdemusgo {
+    height: 80px;
+    width: 80px;
+    background-color: #a2b439;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradoverdeoscuro {
+    height: 80px;
+    width: 80px;
+    background-color: #016b37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradoverdeclaro {
+    height: 80px;
+    width: 80px;
+    background-color: #ccd58e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradoverde {
+    height: 80px;
+    width: 80px;
+    background-color: #66a483;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.cuadradoblanco {
+    height: 80px;
+    width: 80px;
+    background-color: #e8ecf2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.grupo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grupo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filas {
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grupo4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.grupo6 {
+    display: flex;
+    flex-direction: row;
 }
