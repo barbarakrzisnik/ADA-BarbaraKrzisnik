@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(86, 119, 138);
+}
+
+main {
+    height: 100%;
+}
+
+.centrar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    height: 300px;
+    width: 600px;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+}
+
+img {
+    height: 100%;
+    width: 250px;
+}
+
+.texto {
+    background-color: teal;
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+
+h1 {
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+p {
+    margin-left: 10px;
+}
+
+.descripcion {
+    display: flex;
+    flex-grow: 1;
+}

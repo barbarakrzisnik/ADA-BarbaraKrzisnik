@@ -1,0 +1,101 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.franja-celeste {
+    background-color: lightblue;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+.franja-blanca {
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+.franja-negra {
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+.franja-roja {
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+.franja-amarilla {
+    background-color: yellow;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+.franja-azul {
+    background-color: blue;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+.franja-verde {
+    background-color: green;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+.banderas {
+    margin-left: 500px;
+}
+
+.bandera-argentina {
+    box-sizing: content-box;
+    height: 200px;
+    width: 300px;
+    margin: 5px
+}
+
+.bandera-alemana {
+    box-sizing: content-box;
+    height: 200px;
+    width: 300px;
+    margin: 5px
+}
+
+.bandera-colombia {
+    box-sizing: content-box;
+    height: 200px;
+    width: 300px;
+    margin: 5px
+}
+
+.bandera-holanda {
+    box-sizing: content-box;
+    height: 200px;
+    width: 300px;
+    margin: 5px
+}
+
+.bandera-austria {
+    box-sizing: content-box;
+    height: 200px;
+    width: 300px;
+    margin: 5px
+}
+
+.bandera-bulgaria {
+    box-sizing: content-box;
+    height: 200px;
+    width: 300px;
+    margin: 5px
+}

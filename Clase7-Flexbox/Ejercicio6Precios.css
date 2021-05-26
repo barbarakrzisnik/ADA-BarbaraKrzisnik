@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+    
+    
+body, html {
+    background-color: #333333;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.columnas {
+    height: auto;
+    width: 330px;
+    background-color: #585858;
+    padding: 40px;
+    margin: 30px;
+    color: white;
+    border: 0.5px white solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+}
+
+.columnas > .boton {
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+
+.orden {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+p {
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.precios {
+    font-size: 50px;
+}
+
+.signo {
+    font-size: 14px;
+    padding-bottom: 90px;
+}
+
+.descripcion {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: none;
+
+}
+
+li {
+    margin-top: 5px;
+    font-size: 20px;
+    
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    background-color: lightgrey;
+    color: rgb(42, 92, 230);
+    border-radius: 5px;
+    border: 0px;
+
+}
+

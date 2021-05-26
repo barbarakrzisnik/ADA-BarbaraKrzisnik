@@ -1,0 +1,63 @@
+body, html {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+}
+
+.panelderecho {
+    height: 100%;
+    width: 30%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(166, 90, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    height: 70px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    height: 40px;
+    background-color: rgb(68, 2, 134);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

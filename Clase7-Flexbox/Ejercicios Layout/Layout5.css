@@ -1,0 +1,56 @@
+body, html {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+}
+
+.panelizquierdo {
+    height: 100%;
+    width: 30%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(166, 90, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    height: 60px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+

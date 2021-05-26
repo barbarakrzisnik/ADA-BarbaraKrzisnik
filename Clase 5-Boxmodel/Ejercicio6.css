@@ -1,0 +1,62 @@
+body {
+    background-color: #d3cdf6;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 70px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.div1 {
+    background-color: white;
+    height: 370px;
+    width: 400px;
+    padding: 30px;   
+    margin-left: 300px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    color: rgb(92, 92, 92);
+    border: grey 0.5px solid;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+.botonvio {
+    background-color: #7463f5;
+    color: honeydew;
+}
+
+.botoncont {
+    background-color: #7463f5;
+    padding: 15px 118px 15px 118px; 
+    color: white;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.div2 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+
+.div3 {
+    margin-left: 10px;
+}

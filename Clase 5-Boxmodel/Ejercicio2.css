@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(135, 228, 171);
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+    color: rgb(170, 169, 169);
+}
+
+div {
+    background-color: rgb(245, 245, 245);
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.p1 {
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+    margin: 0px;
+    margin-left: 60px;
+    border-radius: 20px;    
+    border: grey 0.5px solid;
+    font-size: 15px;
+    align-content: center;
+    box-sizing: content-box;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    font-size: 15px;
+}
+
+div {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    padding: 30px;   
+    margin-left: 300px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 12px;
+    background-color: rgb(95, 109, 170);
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: none;
+}

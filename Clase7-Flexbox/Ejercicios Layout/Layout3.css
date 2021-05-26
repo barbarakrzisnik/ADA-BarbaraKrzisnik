@@ -1,0 +1,54 @@
+body, html {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: calc(100% - 120px);
+}
+header {
+    height: 60px;
+    background-color: rgb(255, 227, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 60px;
+    background-color: rgb(190, 129, 247);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.panelizq {
+    width: 30%;
+    height: 100%;
+    background-color: pink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panelprincipal {
+    width: 70%;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

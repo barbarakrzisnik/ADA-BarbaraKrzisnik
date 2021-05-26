@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: darkgrey;
+}
+.card {
+    background-color: white;
+    height: 460px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+
+}
+
+.card2 {
+    background-color: rgb(224, 222, 222);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.buttonupdate {
+    font-size: 12px;
+    margin: auto; 
+    padding: auto;
+    height: 20px;
+    width: 100px;
+    border: 1px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Confirm {
+    color: white;
+    background-color: rgb(30, 28, 37);
+    margin: auto; 
+    padding: auto;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}

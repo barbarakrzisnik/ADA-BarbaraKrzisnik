@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(1, 167, 167);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div1 {
+    background-color: white;
+    height: 540px;
+    width: 600px;
+    margin-top: 100px;      
+    margin-left: 500px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    align-content: center;
+
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 75px;
+
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 0px;
+
+}
+
+button {
+
+}
+
+p {
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+}
+
+.div2 {
+    align-content: center;
+    height: 100px;   
+    width: 450px;
+    line-height: 30px;
+    margin: 20px;
+    margin-left: 70px;
+    border: darkgrey 1px solid;
+    border-left: rgba(235, 21, 153, 0.548) 5px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.div3 {
+    align-content: center;
+    height: 100px;   
+    width: 450px;
+    line-height: 30px;
+    margin: 20px;
+    margin-left: 70px;
+    border: darkgrey 1px solid;
+    border-left: rgba(192, 78, 245, 0.548) 5px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.div4 {
+    align-content: center;
+    height: 100px;   
+    width: 450px;
+    line-height: 30px;
+    margin: 20px;
+    margin-left: 70px;
+    border: darkgrey 1px solid;
+    border-left: rgba(235, 117, 21, 0.548) 5px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-color: grey;
+    border-radius: 10px;
+    margin-left: 100px;
+}

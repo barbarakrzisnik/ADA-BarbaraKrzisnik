@@ -1,0 +1,118 @@
+body, html {
+    background-color: #e8ecf2;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+}
+
+.centrar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.centrartodo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.cajanegra {
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.cajablanca {
+    background-color: white;
+    height: auto;
+    color: black;
+    width: 300px;
+    border-radius: 20px;
+
+}
+.cajavioleta {
+    background-color: #7e6cca;
+    height: auto;
+    width: 200px;
+    color: white;
+    border-radius: 2px;
+}
+
+.paletas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cardpaleta {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.cardcentro {
+    margin-bottom: 10px;
+    box-shadow: grey 0px 0px 20px 0px;
+
+}
+
+.colorgris {
+    background-color: #EEEDF0;
+    width: 130px;
+    height: 170px;
+}
+.colorverde {
+    background-color: #A1B5C1;
+    width: 130px;
+    height: 170px;
+}
+.colorrosa {
+    background-color: #F9ACA7;
+    width: 130px;
+    height: 170px;
+}
+.colorgrisoscuro {
+    background-color: #68747D;
+    width: 130px;
+    height: 170px;
+}
+.colorrojo {
+    background-color: #CF365F;
+    width: 130px;
+    height: 170px;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

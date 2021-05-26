@@ -1,0 +1,60 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-size: 50px
+}
+div {
+    display:inline-block
+}
+.oceano1 {
+    background-color: #5295a0
+}
+.oceano2 { 
+    background-color: #7aaeb9;
+}
+.oceano3 { 
+    background-color: ##284d5a;
+}
+.oceano4 { 
+    background-color: #b8c7ca;
+}
+.oceano5 { 
+    background-color: #d2e0e8;
+}
+
+.vivido1 { 
+    color: white;
+    background-color: rgb(7, 9, 13);
+}
+.vivido2 { 
+    background-color: rgb(49, 107, 78);
+}
+.vivido3 { 
+    background-color: rgb(116, 149, 125);
+}
+.vivido4 { 
+    background-color: rgb(227, 138, 49);
+}
+.vivido5 { 
+    background-color: rgb(225, 120, 50);
+}
+
+.otono1 { 
+    color: white;
+    background-color: hsl(1, 83%, 42%);
+}
+.otono2 { 
+    background-color: hsl(8, 77%, 63%);
+}
+.otono3 { 
+    background-color: hsl(19, 45%, 90%);
+}
+.otono4 { 
+    background-color: hsl(70, 9%, 61%);
+}
+.otono5 { 
+    background-color: hsl(0, 100%, 50%);
+}
