@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 136, 136);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: azure;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+    body {
+        background-color: rgb(185, 104, 138);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    body {
+        background-color: rgb(114, 185, 114);
+    }
+}
