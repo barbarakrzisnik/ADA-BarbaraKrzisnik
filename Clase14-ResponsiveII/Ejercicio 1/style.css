@@ -1,0 +1,44 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 9px;
+    }
+}
+
