@@ -42,7 +42,7 @@ a {
     color: white;
 }
 
-.botoncontacto {
+.boton {
     background-color: #394357;
     border-radius: 20px;
     padding: 10px 30px;
@@ -51,12 +51,49 @@ a {
 a:hover {
     color: #394357;
 }
-.botoncontacto:hover {
+.boton:hover {
     background-color: #4f5d79;
     color: white;
 }
 
 /* Fin Estilo Header */
+/* Seccion HOLA */
+
+.cuadrohola {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textohola {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+img {
+    height: 30em;
+    width: 30em;
+}
+
+.estiloparrafo {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #5C97BF;
+}
+
+h2 {
+    font-size: 2em;
+
+}
+
 
 
 
@@ -67,34 +104,4 @@ footer {
     justify-content: center;
     flex-direction: column;
 
-}
-
-img {
-    height: 500px;
-    width: 500px;
-}
-
-
-
-h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
-h2 {
-    font-size: 2em;
-
-}
-
-.presentacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hola 
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
