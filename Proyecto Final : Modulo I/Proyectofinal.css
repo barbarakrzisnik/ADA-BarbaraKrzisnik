@@ -6,7 +6,7 @@ html, body {
     box-sizing: border-box;
 }
 
-/* Header */
+/* Estilo Header */
 
 header {
     background-color: #5C97BF;
@@ -30,6 +30,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: white;
+    margin-right: 200px;
     
 }
 
@@ -57,7 +58,7 @@ a:hover {
 }
 
 /* Fin Estilo Header */
-/* Seccion HOLA */
+/* Estilo Seccion HOLA */
 
 .cuadrohola {
     display: flex;
@@ -70,6 +71,10 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     margin-right: 50px;
+}
+
+.textohola div {
+    margin-top: 20px;
 }
 
 img {
@@ -86,6 +91,7 @@ img {
 h1 {
     font-size: 3em;
     margin: 0;
+    margin-top: 5px;
     color: #5C97BF;
 }
 
@@ -94,8 +100,9 @@ h2 {
 
 }
 
+/* Fin Estilo Seccion HOLA */
 
-
+/* Estilo Footer */
 
 footer {
     background-color: #5C97BF;
@@ -103,5 +110,55 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 
+}
+
+.menusecundario {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menusecundario li {
+    margin: 10px;
+    font-size: 0.9em;
+}
+
+.menuredes {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0;
+}
+
+.contenedorredes {
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedorredes:hover{
+    background-color: #5C97BF;
+    border: 0.5px white solid;
+}
+
+.iconoredes {
+    height: 1.2em;
+    width: 1.2em;
+    margin: 0;
+}
+
+.copyright {
+    color: white;
+    margin: 0;
 }
