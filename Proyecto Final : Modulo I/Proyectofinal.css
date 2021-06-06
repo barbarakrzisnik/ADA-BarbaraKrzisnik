@@ -3,8 +3,10 @@ html, body {
     margin: 0;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
+/* Header */
 
 header {
     background-color: #5C97BF;
@@ -12,8 +14,51 @@ header {
     height: 10%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     flex-direction: row;
+/* chequear este box shadow a ver si hay otro mas acorde */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuprincipal {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.menuprincipal li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.botoncontacto {
+    background-color: #394357;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+a:hover {
+    color: #394357;
+}
+.botoncontacto:hover {
+    background-color: #4f5d79;
+    color: white;
+}
+
+/* Fin Estilo Header */
+
+
 
 footer {
     background-color: #5C97BF;
@@ -24,25 +69,12 @@ footer {
 
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    color: white;
-    
-}
-
-li {
-    margin-left: 10px;
-}
-
 img {
     height: 500px;
     width: 500px;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 h1 {
     font-size: 3em;
