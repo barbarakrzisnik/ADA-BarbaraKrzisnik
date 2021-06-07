@@ -110,6 +110,32 @@ h2 {
 
 }
 
+@media screen and (max-width: 700px) {
+    .cuadrohola {
+        flex-direction: column;
+    }
+
+    .estiloparrafo, h1 {
+        text-align: center;
+    }
+
+    .textohola div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textohola {
+        margin-right: 0;
+    }
+
+    .imagenhola {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 /* Fin Estilo Seccion HOLA */
 
 /* Estilo Footer */
