@@ -62,7 +62,8 @@ a:hover {
         display: none;
     }
     header {
-        display: none;
+        background-color: white;
+        box-shadow: none;
     }
 
 }
